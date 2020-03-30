@@ -1,7 +1,7 @@
-###js×¥È¡ÍøÒ³ÖÐ·ÖÀàÄÚÈÝ
-  ¸ù¾Ý²úÆ·µÄÒ»¸öÐèÇó£¬Ç°¶ËÓÃjs×¥È¡µÚÈý·½ÍøÒ³µÄËùÓÐ·ÖÀàÄÚÈÝ
+### jsæŠ“å–ç½‘é¡µä¸­åˆ†ç±»å†…å®¹
+  æ ¹æ®äº§å“çš„ä¸€ä¸ªéœ€æ±‚ï¼Œå‰ç«¯ç”¨jsæŠ“å–ç¬¬ä¸‰æ–¹ç½‘é¡µçš„æ‰€æœ‰åˆ†ç±»å†…å®¹
 
-#### ´úÂë¿é
+#### ä»£ç å—
 ``` javascript
 function GrabDate(){
      const FirstMenu = document.getElementById("menu");
@@ -21,7 +21,7 @@ function GrabDate(){
          arrList.push(val);
 
      }
-     //È¥³ýÊý×é¿Õ¸ñºÍ»»ÐÐ·û
+     //åŽ»é™¤æ•°ç»„ç©ºæ ¼å’Œæ¢è¡Œç¬¦
      arrList.forEach(function (value) {
            value = value.replace(/\s+/g,'');
            value = value.replace(/[\r\n]/g,"");
@@ -33,12 +33,12 @@ function GrabDate(){
  GrabDate()
 ```
 -------------------
-> ÎÒÃÇÒÔ https://b2b.baidu.com/ Õâ¸öÍøÕ¾Ê×Ò³menuÎªÀý¿´Ò»ÏÂÔËÐÐ½á¹û
+> æˆ‘ä»¬ä»¥ https://b2b.baidu.com/ è¿™ä¸ªç½‘ç«™é¦–é¡µmenuä¸ºä¾‹çœ‹ä¸€ä¸‹è¿è¡Œç»“æžœ
 
->![QQÍ¼Æ¬20200325172414.png](https://i.loli.net/2020/03/25/wdKpnTGY8qar6A4.png)
+>![QQå›¾ç‰‡20200325172414.png](https://i.loli.net/2020/03/25/wdKpnTGY8qar6A4.png)
 
 -------------------
 
-> ÏÂÍ¼ÊÇÔËÐÐ½á¹û £º
-
-> ![QQÍ¼Æ¬20200325172948.png](https://i.loli.net/2020/03/25/Zb2UeHvz3t589mu.png)
+> ä¸‹å›¾æ˜¯è¿è¡Œç»“æžœ ï¼š
+ 
+> ![QQå›¾ç‰‡20200325172948.png](https://i.loli.net/2020/03/25/Zb2UeHvz3t589mu.png)
